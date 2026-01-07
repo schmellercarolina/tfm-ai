@@ -1,10 +1,10 @@
-# Canarias Tourism Analytics - TFM MVP
+# Análisis de Turismo en Canarias - TFM MVP
 
-> Interactive tourism analytics platform for the Canary Islands
+> Plataforma interactiva de análisis turístico para las Islas Canarias
 >
-> **TFM Project** - Master's in Generative AI 2025
+> Proyecto TFM - Máster en IA Generativa 2025
 
-## 🚀 Quick Start
+## Inicio
 
 ```bash
 # Install dependencies (already done!)
@@ -14,67 +14,66 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000 to see the app!
+Haz click aqui para ver la applicación http://localhost:3000
 
-## ✨ Features
+## Funciones
 
-- 🗺️ **Interactive 3D Map** - Clickable Canary Islands with React Three Fiber
-- 📊 **Real-time Dashboard** - Tourism metrics and KPIs
-- 📈 **Data Visualization** - Time series, seasonality, origin countries
-- 🎨 **Modern UI** - Tailwind CSS with ocean/volcanic theme
-- 📱 **Responsive Design** - Works on desktop and mobile
-- 📦 **10+ Years Data** - Real tourism statistics (2015-2025)
+-  Mapa 3D Interactivo – Islas Canarias seleccionable, React Three Fiber
+-  Panel de Métricas y KPIs turísticos
+-  Visualización de Datos – Series temporales, estacionalidad, países de origen
+-  Interfaz Moderna – Tailwind CSS
+-  Diseño Responsivo – Funciona en escritorio y móvil
+-  Más de 10 Años de Datos – Estadísticas turísticas reales (2015-2025)
 
-## 📚 Documentation
+##  Documentación
 
-- **[README.md](./README.md)** - Start here! Run the app and test features
-- **[CLAUDE.md](./CLAUDE.md)** - Full project specifications and architecture
+- **[README.md](./README.md)** - Ejecuta la app y prueba las funciones!
+- **[CLAUDE.md](./CLAUDE.md)** - Especificaciones completas del proyecto y arquitectura
 
-## 🏗️ Tech Stack
+## Tecnologíask
 
 - **React 18** + TypeScript
-- **Vite** - Build tool
-- **React Three Fiber** - 3D graphics
-- **Recharts** - Data visualization
-- **Tailwind CSS** - Styling
+- **Vite** - Herramienta de construcción
+- **React Three Fiber** - 3 Gráficos 3D
+- **Recharts** - Visualización de datos
+- **Tailwind CSS** - Estilo general de la aplicación
 
-## 🏝️ The 7 Canary Islands
+## Las 7 islas Canarias
 
-1. **Tenerife** (10.7M tourists) - Blue
-2. **Gran Canaria** (10.3M tourists) - Light Blue
-3. **Lanzarote** (5.9M tourists) - Yellow
-4. **Fuerteventura** (5.3M tourists) - Sand
-5. **La Palma** (1.9M tourists) - Gray-Blue
-6. **La Gomera** (1.0M tourists) - Dark Gray
-7. **El Hierro** (0.6M tourists) - Darkest Gray
+1. **Tenerife** (10.7M turistas) – Azul
+2. **Gran Canaria** (10.3M turistas) – Azul Claro
+3. **Lanzarote** (5.9M turistas) – Amarillo
+4. **Fuerteventura** (5.3M turistas) – Arena
+5. **La Palma** (1.9M turistas) – Azul Grisáceo
+6. **La Gomera** (1.0M turistas) – Gris Oscuroy
+7. **El Hierro** (0.6M turistas) – Gris Muy Oscuro
 
-## 🎯 User Flow
+## Flujo del usuario
 
-1. **Landing View** - See all 7 islands with aggregated data
-2. **Click Island** - Filter data for specific island
-3. **Explore Metrics** - View KPIs and charts
-4. **Compare Islands** - Switch between islands
-5. **Return to Overview** - Click "View All Islands"
+1. **Vista de inicio** - Ver las 7 islas con datos agregados
+2. **Seleccionar Isla** - Filtrar datos de una isla específica
+3. **Explorar Métrica** - Ver KPIs y gráficos
+4. **Compare Islands** - Cambiar entre islas
+5. **Volver a vsiata general** - Seleccionar “Ver Todas las Islas”
 
-## 📊 Data Insights
+## Vista de datos
 
-- **20 metrics** per data point
-- **~4,000 records** (weekly data)
-- **Top origin countries**: Spain, UK, Germany, France
-- **Peak season**: July-August
-- **Average stay**: 6.8 days
-- **Average spend**: €802/trip
+- **20 metricas** por punto de datos
+- **~4,000 registros**  (datos semanales de 2015 a 2025)
+- **Principales países de origen**: España, Reino Unido, Alemania, Francia
+- **Temporada alta**: julio-agosto
+- **Estancia promedio**: 6 - 8 días
+- **Gasto promedio**: 802 €/viaje
 
-## 🎓 TFM Presentation
+## Presentacion
 
-Perfect for demonstrating:
-- ✅ Interactive data visualization
-- ✅ 2D web graphics
-- ✅ Real-world data analysis
-- ✅ Modern web development
-- ✅ User experience design
+- ✅ Visualización de datos interactiva
+- ✅ Gráficos web 
+- ✅ Análisis de datos reales
+- ✅ Desarrollo web moderno
+- ✅ Diseño de experiencia de usuario
 
-## 📦 Project Structure
+## Estructura del Proyecto
 
 ```
 src/
@@ -88,29 +87,24 @@ src/
 └── utils/           # Helper functions
 ```
 
-## 🐛 Troubleshooting
+## Solución de Problemas
 
-### App won't start?
+### ¿La app no inicia?
 ```bash
 rm -rf node_modules
 npm install
 npm run dev
 ```
 
-### Data not loading?
-- Verify `src/data/tourism_data.json` exists
-- Check browser console for errors
+### ¿Los datos no se cargan?
+- Verifica que `src/data/tourism_data.json` exista
+- Revisa la consola del navegador para ver errores
 
-## 📝 License
+## Licencia
 
-MIT License - See [LICENSE](./LICENSE)
+Licencia MIT – Ver [LICENSE](./LICENSE)
 
-## 👨‍💻 Author
+## Autores
 
-**TFM Project** - Master's in Generative AI 2025
+**TFM* - Master en desarollo de IA Generativa 2025
 
----
-
-🌟 **Star this repo if you find it useful!**
-
-📧 Questions? Open an issue!
